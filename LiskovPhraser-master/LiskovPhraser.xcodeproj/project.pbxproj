@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA227E11B554B8700939E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA227E01B554B8700939E71 /* AppDelegate.swift */; };
+		BBA227E31B554B8700939E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA227E21B554B8700939E71 /* ViewController.swift */; };
+		BBA227E61B554B8700939E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA227E41B554B8700939E71 /* Main.storyboard */; };
+		BBA227E81B554B8700939E71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA227E71B554B8700939E71 /* Images.xcassets */; };
+		BBA227EB1B554B8700939E71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA227E91B554B8700939E71 /* LaunchScreen.xib */; };
+		BBA227F71B554B8700939E71 /* LiskovPhraserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA227F61B554B8700939E71 /* LiskovPhraserTests.swift */; };
+		BBA228011B554CB100939E71 /* LiskovPhraseMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBA227F11B554B8700939E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBA227D31B554B8600939E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBA227DA1B554B8600939E71;
+			remoteInfo = LiskovPhraser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBA227DB1B554B8700939E71 /* LiskovPhraser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiskovPhraser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA227DF1B554B8700939E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA227E01B554B8700939E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBA227E21B554B8700939E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBA227E51B554B8700939E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA227E71B554B8700939E71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBA227EA1B554B8700939E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBA227F01B554B8700939E71 /* LiskovPhraserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiskovPhraserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA227F51B554B8700939E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA227F61B554B8700939E71 /* LiskovPhraserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovPhraserTests.swift; sourceTree = "<group>"; };
+		BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiskovPhraseMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA227D81B554B8600939E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA227ED1B554B8700939E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBA227D21B554B8600939E71 = {
+			isa = PBXGroup;
+			children = (
+				BBA227DD1B554B8700939E71 /* LiskovPhraser */,
+				BBA227F31B554B8700939E71 /* LiskovPhraserTests */,
+				BBA227DC1B554B8700939E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA227DC1B554B8700939E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA227DB1B554B8700939E71 /* LiskovPhraser.app */,
+				BBA227F01B554B8700939E71 /* LiskovPhraserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA227DD1B554B8700939E71 /* LiskovPhraser */ = {
+			isa = PBXGroup;
+			children = (
+				BBA228001B554CB100939E71 /* LiskovPhraseMaker.swift */,
+				BBA227E01B554B8700939E71 /* AppDelegate.swift */,
+				BBA227E21B554B8700939E71 /* ViewController.swift */,
+				BBA227E41B554B8700939E71 /* Main.storyboard */,
+				BBA227E71B554B8700939E71 /* Images.xcassets */,
+				BBA227E91B554B8700939E71 /* LaunchScreen.xib */,
+				BBA227DE1B554B8700939E71 /* Supporting Files */,
+			);
+			path = LiskovPhraser;
+			sourceTree = "<group>";
+		};
+		BBA227DE1B554B8700939E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA227DF1B554B8700939E71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA227F31B554B8700939E71 /* LiskovPhraserTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBA227F61B554B8700939E71 /* LiskovPhraserTests.swift */,
+				BBA227F41B554B8700939E71 /* Supporting Files */,
+			);
+			path = LiskovPhraserTests;
+			sourceTree = "<group>";
+		};
+		BBA227F41B554B8700939E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA227F51B554B8700939E71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA227DA1B554B8600939E71 /* LiskovPhraser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA227FA1B554B8700939E71 /* Build configuration list for PBXNativeTarget "LiskovPhraser" */;
+			buildPhases = (
+				BBA227D71B554B8600939E71 /* Sources */,
+				BBA227D81B554B8600939E71 /* Frameworks */,
+				BBA227D91B554B8600939E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiskovPhraser;
+			productName = LiskovPhraser;
+			productReference = BBA227DB1B554B8700939E71 /* LiskovPhraser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBA227EF1B554B8700939E71 /* LiskovPhraserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA227FD1B554B8700939E71 /* Build configuration list for PBXNativeTarget "LiskovPhraserTests" */;
+			buildPhases = (
+				BBA227EC1B554B8700939E71 /* Sources */,
+				BBA227ED1B554B8700939E71 /* Frameworks */,
+				BBA227EE1B554B8700939E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA227F21B554B8700939E71 /* PBXTargetDependency */,
+			);
+			name = LiskovPhraserTests;
+			productName = LiskovPhraserTests;
+			productReference = BBA227F01B554B8700939E71 /* LiskovPhraserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA227D31B554B8600939E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "University of Chester";
+				TargetAttributes = {
+					BBA227DA1B554B8600939E71 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 1500;
+					};
+					BBA227EF1B554B8700939E71 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 1500;
+						TestTargetID = BBA227DA1B554B8600939E71;
+					};
+				};
+			};
+			buildConfigurationList = BBA227D61B554B8600939E71 /* Build configuration list for PBXProject "LiskovPhraser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA227D21B554B8600939E71;
+			productRefGroup = BBA227DC1B554B8700939E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA227DA1B554B8600939E71 /* LiskovPhraser */,
+				BBA227EF1B554B8700939E71 /* LiskovPhraserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA227D91B554B8600939E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA227E61B554B8700939E71 /* Main.storyboard in Resources */,
+				BBA227EB1B554B8700939E71 /* LaunchScreen.xib in Resources */,
+				BBA227E81B554B8700939E71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA227EE1B554B8700939E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA227D71B554B8600939E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA228011B554CB100939E71 /* LiskovPhraseMaker.swift in Sources */,
+				BBA227E31B554B8700939E71 /* ViewController.swift in Sources */,
+				BBA227E11B554B8700939E71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA227EC1B554B8700939E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA227F71B554B8700939E71 /* LiskovPhraserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBA227F21B554B8700939E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBA227DA1B554B8600939E71 /* LiskovPhraser */;
+			targetProxy = BBA227F11B554B8700939E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBA227E41B554B8700939E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA227E51B554B8700939E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA227E91B554B8700939E71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA227EA1B554B8700939E71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA227F81B554B8700939E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BBA227F91B554B8700939E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA227FB1B554B8700939E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiskovPhraser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBA227FC1B554B8700939E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiskovPhraser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BBA227FE1B554B8700939E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiskovPhraserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiskovPhraser.app/LiskovPhraser";
+			};
+			name = Debug;
+		};
+		BBA227FF1B554B8700939E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiskovPhraserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiskovPhraser.app/LiskovPhraser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA227D61B554B8600939E71 /* Build configuration list for PBXProject "LiskovPhraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA227F81B554B8700939E71 /* Debug */,
+				BBA227F91B554B8700939E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA227FA1B554B8700939E71 /* Build configuration list for PBXNativeTarget "LiskovPhraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA227FB1B554B8700939E71 /* Debug */,
+				BBA227FC1B554B8700939E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA227FD1B554B8700939E71 /* Build configuration list for PBXNativeTarget "LiskovPhraserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA227FE1B554B8700939E71 /* Debug */,
+				BBA227FF1B554B8700939E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA227D31B554B8600939E71 /* Project object */;
+}
